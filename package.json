@@ -1,0 +1,27 @@
+{
+  "name": "spec-pages",
+  "version": "0.1.0",
+  "description": "Get the list of pages that compose a spec.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --async-only -u tdd --timeout 10000 ./test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobie/spec-pages"
+  },
+  "keywords": [
+    "spec"
+  ],
+  "devDependencies": {
+    "jsdom": "^1.0.3",
+    "mocha": "^1.21.5",
+    "spec-toc-obj": "^0.3.0"
+  },
+  "author": "Tobie Langel <tobie.langel@gmail.com>",
+  "license": "Apache License, Version 2.0",
+  "bugs": {
+    "url": "https://github.com/tobie/spec-pages/issues"
+  },
+  "homepage": "https://github.com/tobie/spec-pages"
+}
