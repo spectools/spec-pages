@@ -13,10 +13,12 @@
   "keywords": [
     "spec"
   ],
+  "dependencies": {
+    "spec-toc-obj": "^0.3.0"
+  },
   "devDependencies": {
     "jsdom": "^1.0.3",
-    "mocha": "^1.21.5",
-    "spec-toc-obj": "^0.3.0"
+    "mocha": "^1.21.5"
   },
   "author": "Tobie Langel <tobie.langel@gmail.com>",
   "license": "Apache License, Version 2.0",
