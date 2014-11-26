@@ -1,6 +1,6 @@
 {
   "name": "spec-pages",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Get the list of pages that compose a spec.",
   "main": "index.js",
   "scripts": {
