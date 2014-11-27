@@ -80,6 +80,7 @@ suite("Find pages", function() {
         "mimereg.html",
         "changes.html" 
     ], "./fixtures/svg.html"));
+    test("support for links missing an href", testFixture([""], "./fixtures/empty-link.html"));
 });
 
 function testFixture(expected, file) {

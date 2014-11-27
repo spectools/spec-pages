@@ -14,7 +14,8 @@ module.exports = function(window) {
     // anchors or link to definitions.
     _forEach.call(node.querySelectorAll('a:not([href$="#"]):not([data-link-type])'), function(node) {
         // Get the path of the URL.
-        var href = node.getAttribute("href").split("#")[0];
+        var href = node.getAttribute("href");
+        if (typeof href === "string") href = href.split("#")[0];
         if (href && output.indexOf(href) < 0) {
             output.push(href);
         } 
